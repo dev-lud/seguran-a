@@ -1,2 +1,21 @@
-@import url(navbar.css);
 
+
+
+
+
+body{
+    display: flex;
+  flex-direction: column; /* Altere a direção do flex para coluna */
+  align-items: center;
+  justify-content: center;
+  .navigation {
+    position: relative;
+    width: 400px;
+    height: 70px;
+    background: #4783B5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+    }
+}

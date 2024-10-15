@@ -1,64 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>JOGO DA COBRA</h1>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShieldClass</title>
-    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Snake Game JavaScript | CodingNepal</title>
+    <!--css snaker game-->
+    <!--<link rel="stylesheet" href="css/warning.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <--js snaker game-->
+    <!--<script src="js/warning.js" defer></script>
+
+    <--css navbar-->
+    <!--<link rel="stylesheet" type="text/css" href="css/navbar.css">
+
+    <--js navbar-->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</head>
-<body>
-    <div class="navigation">
-        <ul class="nav">
-            <!--primeiro-->
-            <li class="list">
-                <a href="#">
-                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
-                    <span class="text">Home</span>
-                </a>
-            </li>
-            <!--segundo-->
-            <li class="list">
-                <a href="">
-                    <span class="icon"><ion-icon name="archive-outline"></ion-icon></span>
-                    <span class="text">Arquivos</span>
-                </a>
-            </li>
-            <!--terceiro-->
-            <li class="list">
-                <a href="#">
-                    <span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon></span>
-                    <span class="text">Chatbubbles</span>
-                </a>
-            </li>
-            <!--quarto-->
-            <li class="list active">
-                <a href="#">
-                    <span class="icon"><ion-icon name="warning-outline"></ion-icon></span>
-                    <span class="text">Warning</span>
-                </a>
-            </li>
-            <!--quinto-->
-            <li class="list">
-                <a href="#">
-                    <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
-                    <span class="text">User</span>
-                </a>
-            </li>
-            <div class="indicator"></div>
-        </ul>
-    </div>
     <script src="js/navbar.js"></script>
-</body>
+
+    <!--css space-->
+    <link rel="stylesheet" href="css/space.css">
+
+    <link rel="stylesheet" href="css/warningnav.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    
+    <!-- inicio snaker game-->
+    <div class="wrapper">
+      <div class="game-details">
+        <span class="score">Score: 0</span>
+        <span class="high-score">High Score: 0</span>
+      </div>
+      <div class="play-board"></div>
+      <div class="controls">
+        <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+        <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+        <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+        <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+      </div>
+    </div>
+    <!--fim snaker game-->
+
+    <!-- espaço entre os elementos -->
+    <div class="space-between"></div>
+
+    <!--inicio do navbar-->
+    <div class="navigation">
+      <ul class="nav">
+          <!--primeiro-->
+          <li class="list">
+              <a href="#">
+                  <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                  <span class="text">Home</span>
+              </a>
+          </li>
+          <!--segundo-->
+          <li class="list">
+              <a href="">
+                  <span class="icon"><ion-icon name="archive-outline"></ion-icon></span>
+                  <span class="text">Arquivos</span>
+              </a>
+          </li>
+          <!--terceiro-->
+          <li class="list">
+              <a href="#">
+                  <span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon></span>
+                  <span class="text">Chatbubbles</span>
+              </a>
+          </li>
+          <!--quarto-->
+          <li class="list active">
+              <a href="#">
+                  <span class="icon"><ion-icon name="warning-outline"></ion-icon></span>
+                  <span class="text">Warning</span>
+              </a>
+          </li>
+          <!--quinto-->
+          <li class="list">
+              <a href="#">
+                  <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+                  <span class="text">User</span>
+              </a>
+          </li>
+          <div class="indicator"></div>
+      </ul>
+  </div>
+  <!--fim do navbar-->
+
+  </body>
 </html>
