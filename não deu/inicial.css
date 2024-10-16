@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
 body{
+    margin: 0;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     overflow: hidden;
-    background: linear-gradient(30deg, rgb(100, 241, 84), rgb(92, 92, 229), rgb(111, 30, 30));
+    background: linear-gradient(30 deg, to bottom, #4783B5, #024873, #03278E);
 }
 
 .container{

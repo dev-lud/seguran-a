@@ -7,8 +7,25 @@
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/arquivo.css">
 </head>
 <body>
+    <!-- espaço entre os elementos -->
+    <div class="space-between"></div>
+    <!-- espaço entre os elementos -->
+    <div class="space-between"></div><!-- espaço entre os elementos -->
+    <div class="space-between"></div>
+    <div class="container">
+        <h1>Upload de Foto</h1>
+        <form id="uploadForm">
+            <input type="file" id="photoInput" accept="image/*" required>
+            <button type="submit">Salvar Foto</button>
+        </form>
+        <div id="preview"></div>
+         
+         <!-- espaço entre os elementos -->
+    <div class="space-between"></div>
+    
     <div class="navigation">
         <ul class="nav">
             <!--primeiro-->
@@ -50,5 +67,6 @@
         </ul>
     </div>
     <script src="js/navbar.js"></script>
+    <script src="js/arquivo.js"></script>
 </body>
 </html>

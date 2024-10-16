@@ -7,13 +7,19 @@
 
 document.getElementById('signupForm').addEventListener('submit', function(event) {
     event.preventDefault();
-    const name = document.getElementById('userName').value;
+    const name = document.getElementById('userName','chk').value;
     localStorage.setItem('userName', name);
     window.location.href = 'home.html';
 });
 
-document.getElementById('loginForm').addEventListener('submit', function(event) {
+/*document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault();
     window.location.href = 'home.html';
-});
+});*/
 
+document.getElementById('signupForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const name = document.getElementById('name').value;
+    localStorage.setItem('userName', name);
+    window.location.href = 'inicial.html';  // Redireciona para a página com os 8 cards
+});

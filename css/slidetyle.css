@@ -5,8 +5,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-font-family: 'Jost', sans-serif;
-background: linear-gradient(to bottom, #4783B5, #024873, #03278E);
+font-family: 'Jost', sans-serif;background: linear-gradient(to bottom, #4783b5, #024873, #03278E);
+
 }
 
 .main{
@@ -34,7 +34,7 @@ label{
     font-size: 2.3rem;
     justify-content: center;
     display: flex;
-    margin: 40px;
+    margin: 60px;
     font-weight: bold;
     cursor: pointer;
     transition: .5s ease-in-out;
@@ -42,7 +42,7 @@ label{
 
 input{
     width: 60%;
-    height: s0px;
+    height: 20px;
     background: #e0dede;
     justify-content: center;
     display: flex;

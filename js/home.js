@@ -18,3 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });*/
 
 
+document.getElementById('callButton').addEventListener('click', function() {
+    location.href = 'tel:190'; // Substitua pelo número desejado
+});
